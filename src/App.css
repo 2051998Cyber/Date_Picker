@@ -1,0 +1,43 @@
+
+body{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.table {
+  margin: 5px auto 20px;
+  
+}
+
+.today {
+  background-color: rgb(128, 142, 231)
+}
+
+.in-prev-month,
+.in-next-month {
+  opacity: 0.5;
+}
+
+.inline-element{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.container-calendar {
+  width: 380px;
+}
+
+p{
+  font-size: 25px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.container{
+  padding: 20px;
+  border-collapse: collapse;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
